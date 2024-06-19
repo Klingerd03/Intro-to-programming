@@ -39,15 +39,22 @@
 #Write a while loops to find the factorial of a number.
 #Use input statement to get the number.
 
-num = int(input("What is your number?"))
-factorial = 1
-product = 1
-
-while factorial <= num:
-    product = product * factorial
-    factorial = factorial + 1
-print(product)
+# num = int(input("What is your number?"))
+# factorial = 1
+# product = 1
+#
+# while factorial <= num:
+#     product = product * factorial
+#     factorial = factorial + 1
+# print(product)
 
 #Exercise:
 #Use the while loops to find the smallest number that is divisible by all integers from 1 to 9.
 #answer:2520
+num = 9
+numlist = []
+while num < 9999999:
+    if num%1 == 0 and num%2 == 0 and num%3 == 0 and num%4 == 0 and  num%5 == 0 and num%6 == 0 and num%7 == 0 and num%8 == 0 and num%9 == 0:
+        numlist.append(num)
+    num += 1
+print(min(numlist))

@@ -35,13 +35,13 @@
 # print(product)
 
 #Excercise find multiples of 4 and 7 in a range of 3 through 302.
-# for i in range (3, 303):
-#     if i%4 == 0 and i%7 == 0:
-#         print(i, "BUZZ")
-#
-# for i in range (3, 303):
-#     if i%28 == 0:
-#         print(i, "BUZZ")
+for i in range (3, 303):
+    if i%4 == 0 and i%7 == 0:
+        print(i, "BUZZ")
+
+for i in range (3, 303):
+    if i%28 == 0:
+        print(i, "BUZZ")
 
 
 # # x = 11
